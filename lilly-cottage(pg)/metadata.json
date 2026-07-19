@@ -1,0 +1,6 @@
+{
+  "name": "Lilly Cottage(PG)",
+  "description": "Private administration panel for local dormitory-style homestay management, covering blocks A, B, and C.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

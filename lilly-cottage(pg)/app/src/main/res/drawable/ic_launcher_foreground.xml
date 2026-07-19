@@ -1,0 +1,35 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Signature House Roof & Main Pillar Contour (Yellow/Amber) -->
+    <path
+        android:strokeColor="#FFAB00"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M66,50 L46,32 L26,50 L26,70 A4,4 0 0,0 30,74 L60,74" />
+
+    <!-- Filled Yellow/Amber Inner Focus Triangle -->
+    <path
+        android:fillColor="#FFAB00"
+        android:pathData="M46,40 L36,49 L56,49 Z" />
+
+    <!-- "LILLY" Geometric Vector Letters -->
+    <path
+        android:strokeColor="#FFAB00"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M32,53 V58 H35 M37.5,53 V58 M40,53 V58 H43 M45,53 V58 H48 M50,53 L52.5,55.5 V58 M55,53 L52.5,55.5" />
+
+    <!-- "COTTAGE(PG)" Geometric Vector Letters -->
+    <path
+        android:strokeColor="#FFAB00"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M35,63 H32 V68 H35 M37,63 H40 V68 H37 Z M42,63 H45 M43.5,63 V68 M47,63 H50 M48.5,63 V68 M52,68 V63 H55 V68 M52,65.5 H55 M60,63 H57 V68 H60 V65.5 H58.5 M65,63 H62 V68 H65 M62,65.5 H64.5 M69,63 C67.5,64.5 67.5,66.5 69,68 M71,68 V63 H74 V65.5 H71 M79,63 H76 V68 H79 V65.5 H77.5 M81,63 C82.5,64.5 82.5,66.5 81,68" />
+</vector>
