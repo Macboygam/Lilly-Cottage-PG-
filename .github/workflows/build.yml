@@ -20,6 +20,10 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
+      - name: Generate debug keystore
+        run: |
+          keytool -genkey -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=Android Debug,O=Android,C=US"
+
       - name: Remove broken gradle wrapper
         run: rm -rf gradle/wrapper
 
@@ -37,4 +41,3 @@ jobs:
         with:
           name: app-debug
           path: lilly-cottage(pg)/app/build/outputs/apk/debug/*.apk
-          
