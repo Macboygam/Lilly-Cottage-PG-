@@ -25,9 +25,9 @@ jobs:
 
       - name: Install Gradle manually
         run: |
-          wget -q https://services.gradle.org/distributions/gradle-8.7-bin.zip
-          unzip -q gradle-8.7-bin.zip
-          echo "$PWD/gradle-8.7/bin" >> $GITHUB_PATH
+          wget -q https://services.gradle.org/distributions/gradle-9.3.1-bin.zip
+          unzip -q gradle-9.3.1-bin.zip
+          echo "$PWD/gradle-9.3.1/bin" >> $GITHUB_PATH
 
       - name: Build debug APK
         run: gradle assembleDebug --no-daemon
@@ -37,3 +37,4 @@ jobs:
         with:
           name: app-debug
           path: lilly-cottage(pg)/app/build/outputs/apk/debug/*.apk
+          
